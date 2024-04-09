@@ -17,4 +17,4 @@ EXPOSE 8080
 ENV PORT=8080
 
 # Run app.py when the container launches
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"]
+CMD ["python", "app.py"]
