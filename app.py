@@ -19,4 +19,5 @@ def contact():
     return render_template('contact.html')
 
 if __name__ == '__main__':
+    # debug should be turned off in production
     app.run(debug=True, port=8080)
